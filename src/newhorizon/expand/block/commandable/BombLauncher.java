@@ -42,7 +42,7 @@ public class BombLauncher extends CommandableAttackerBlock{
 	public BombLauncher(String name){
 		super(name);
 		storage = 4;
-		range = 800f;
+		range = 8000f;
 		spread = 80f;
 		prepareDelay = 30f;
 	}
