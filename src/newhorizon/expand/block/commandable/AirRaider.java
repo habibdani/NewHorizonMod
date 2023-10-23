@@ -34,10 +34,10 @@ public class AirRaider extends CommandableAttackerBlock{
 	public AirRaider(String name){
 		super(name);
 		
-		reloadTime = 600f;
-		range = 1000f;
+		reloadTime = 60f;
+		range = 10000f;
 		spread = 40f;
-		prepareDelay = 90f;
+		prepareDelay = 20f;
 		
 		unloadable = false;
 	}
